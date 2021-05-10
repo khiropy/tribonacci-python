@@ -9,5 +9,4 @@ def tribonacci(s,n):
         for i in range(3, n):
            rslt[i] = rslt[i - 2] + rslt[i - 1] + rslt[i - 3]
     print(rslt)
-    return
-tribonacci([1,1,1],10)
+    return 
